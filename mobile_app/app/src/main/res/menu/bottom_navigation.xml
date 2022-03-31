@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/nav_trending"
+        android:icon="@drawable/ic_baseline_trending_up_24"
+        android:title="Trending"/>
+
+    <item
+        android:id="@+id/nav_post"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:title="Post"/>
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile" />
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "109385465433",
+    "project_id": "hotwheels-cd98c",
+    "storage_bucket": "hotwheels-cd98c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109385465433:android:886e53d033bf56131a7b48",
+        "android_client_info": {
+          "package_name": "ie.ul.hotwheels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109385465433-b0qsut64t419fko1kdag1mib0l5lr8t0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO9L13r1-oV51_RO5IDCNs2w_fQjeTeGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109385465433-b0qsut64t419fko1kdag1mib0l5lr8t0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

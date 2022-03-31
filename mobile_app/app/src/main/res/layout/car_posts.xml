@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:layout_marginTop="38dp"
+        app:layout_constraintDimensionRatio="16:9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:text="Description"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/counter"
+        app:layout_constraintTop_toBottomOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/UserNameHome"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="username"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/likeButtonFeed"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        app:srcCompat="@drawable/ic_baseline_thumb_up_24" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="423dp"
+        android:layout_height="6dp"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/selection_band_overlay" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="2dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/likeButtonFeed"
+        app:layout_constraintTop_toBottomOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/carBrandTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:text="Brand"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/counter"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTextView" />
+
+    <TextView
+        android:id="@+id/carModelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:text="Model"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@id/carBrandTextView"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTextView" />
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/goToMapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/image"
+        app:layout_constraintEnd_toStartOf="@+id/locationTextView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_mylocation" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
